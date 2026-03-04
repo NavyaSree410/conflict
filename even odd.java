@@ -12,6 +12,6 @@ public class EvenOddChecker {
         } else {
             System.out.println(number + " is Odd");
         }
-       System.out.println("complete");
+       System.out.println("SUCCESS");
     }
 }
