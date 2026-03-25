@@ -1,8 +1,8 @@
-
-
-public class even odd {
+public class EvenOdd {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        // Use the full path java.util.Scanner instead of an import
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        
         System.out.print("Enter a number to check: ");
         int number = scanner.nextInt(); 
         scanner.close();
@@ -12,6 +12,7 @@ public class even odd {
         } else {
             System.out.println(number + " is Odd");
         }
-       System.out.println("SUCCESS");
+        
+        System.out.println("SUCCESS");
     }
 }
